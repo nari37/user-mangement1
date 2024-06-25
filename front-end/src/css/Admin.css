@@ -1,0 +1,105 @@
+/* admin.css */
+*{
+  font-family: Microsoft Sans Serif;
+}
+.main {
+    display: flex;
+  }
+  .menu-icon{
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+  
+  .sidebaropen {
+    float: left;
+    width: 240px; /* Set the initial width of the sidebar */
+    background-color: rgb(28, 66, 95);
+    color: white; 
+    overflow-y: auto;
+    transition: width 0.5s; /* Add a transition for smooth animation */
+    z-index: 1100;
+  }
+
+  .sidebarclose {
+    width: 0;
+    background-color: rgb(28, 66, 95);
+    color: white; 
+    overflow-y: auto;
+    transition: width 0.5s; /* Add a transition for smooth animation */
+    z-index: 1100;
+  }
+  ::-webkit-scrollbar{
+    width:7px;
+    height: 3px;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: lightsteelblue;
+    border-radius: 3px;
+
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .menu-icon {
+    cursor: pointer;
+  }
+  .sidebar-list li {
+    margin-top: 10px;
+    padding: 1rem;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .sidebar-list li:hover {
+    
+    border-radius: 5px;
+    
+    background-color: #2eb3ce; /* Change the background color on hover */
+  }
+/* .... */
+
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .form-row > div {
+    width: calc(50% - 1rem);
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .form-row > div {
+      width: calc(100% - 1rem);
+    }
+  }
+  
+
+
+
+  @media (max-width:600px) {
+    .sidebaropen{
+      position: absolute;
+
+      margin-top: 100px;
+   
+      transform: translateX(5px);
+    }
+    .sidebarclose{
+      position: absolute;
+      
+      margin-top: 100px;
+   
+      transform: translateX(5px);
+    }
+    #closeadmin{
+      display: inline-block !important;
+    }
+   
+   
+  }

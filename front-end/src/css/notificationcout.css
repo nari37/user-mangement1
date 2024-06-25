@@ -1,0 +1,11 @@
+.notification-count {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 8px;
+    font-size: 0.8rem;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+  }
+  

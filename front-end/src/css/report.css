@@ -1,0 +1,71 @@
+.container-fees {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Adjust the size of the button and align it to the right */
+.container-fees .btn {
+    display: block;
+    width: auto; /* Adjust width based on content */
+    padding: 5px 10px; /* Adjust padding */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right; /* Align to the right */
+    margin-top: 10px; /* Add some space */
+}
+
+/* Style remaining fee field */
+.container-fees .remaining-fee {
+    font-weight: bold;
+    color: #007bff;
+}
+
+
+.container-fees .section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container-fees .section h3 {
+    margin-top: 0;
+}
+
+.container-fees .form-group {
+    margin-bottom: 15px;
+}
+
+.container-fees label {
+    
+    float:left;
+    font-weight: bold;
+}
+
+.container-fees .form-group input
+ {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.container-fees .btn {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-fees .btn:hover {
+    background-color: #0056b3;
+}

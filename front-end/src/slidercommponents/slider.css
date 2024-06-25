@@ -1,0 +1,63 @@
+
+
+
+
+
+   /* slider.css */
+
+.slider {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .slider::-webkit-scrollbar {
+    display: none;
+    height: 4rem;
+    background: green;
+  }
+  
+  .slider button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    flex: 1;
+  }
+  
+  .slider button.active {
+    background-color: rgb(28, 66, 95);
+    color: #fff;
+  }
+  
+  .cards-container {
+    display: flex;
+    max-height: 120px;
+    overflow-x: auto;
+    white-space: nowrap;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+  }
+  
+  .cards-container::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  .card {
+    min-width: 100%;
+    cursor: pointer;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 5px;
+  }
+  
+  .card.active {
+    display: inline-block;
+  }
+  

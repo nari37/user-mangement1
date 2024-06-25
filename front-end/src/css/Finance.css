@@ -1,0 +1,9 @@
+
+
+#card{
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#card:hover{
+    background-color: rgb(28, 66, 95);
+    color: white;
+}

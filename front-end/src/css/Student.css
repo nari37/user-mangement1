@@ -1,0 +1,92 @@
+/* staaff.css */
+*{
+    font-family: Microsoft Sans Serif;
+  }
+  .main {
+      display: flex;
+    }
+    .menu-icon{
+      font-size: 1.4rem;
+      margin-top: 10px;
+    }
+    
+    .change_section{
+      width: 100vh;
+      height: 100vh;
+    }
+    .sidebaropenstudent{
+      float: left;
+      width: 270px; /* Set the initial width of the sidebar */
+      height: 100vh;
+      background-color: rgb(28, 66, 95);
+      color: white;
+     
+      overflow-y: auto;
+      transition: width 0.5s; /* Add a transition for smooth animation */
+      z-index: 1100;
+    }
+  
+    .sidebarclosestudent{
+      width: 0;
+      height: 100vh;
+      background-color: rgb(28, 66, 95);
+      color: white; 
+      overflow-y: auto;
+      transition: width 0.5s; /* Add a transition for smooth animation */
+      z-index: 1100;
+    }
+    ::-webkit-scrollbar{
+      width:7px;
+      height: 3px;
+    }
+    ::-webkit-scrollbar-track{
+      background-color: lightsteelblue;
+      border-radius: 3px;
+  
+    }
+    
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    
+    .menu-icon {
+      cursor: pointer;
+    }
+    .sidebar-list li {
+      margin-top: 10px;
+      padding: 1rem;
+      transition: background-color 0.3s ease; 
+    }
+    
+    .sidebar-list li:hover {
+      
+      border-radius: 5px;
+      
+      background-color: #2eb3ce; /* Change the background color on hover */
+    }
+  
+  
+    @media (max-width:600px) {
+      .sidebaropenstudent{
+        position: absolute;
+  
+        margin-top: 110px;
+     
+        transform: translateX(5px);
+      }
+      .sidebarclosestudent{
+        position: absolute;
+        
+        margin-top: 110px;
+     
+        transform: translateX(5px);
+      }
+      #closebtn{
+        display: inline-block !important;
+       
+      }
+     
+    }

@@ -1,0 +1,53 @@
+
+
+
+  
+  .image-container img {
+    max-width: 100%;
+    width: 600px; 
+    height: auto;
+  }
+  .login-container{
+   padding: 0 30px;
+  }
+
+  .login-form-container {
+    
+    max-width: 600px;
+    padding: 1rem;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .eyeicon{
+    margin-top: 10px !important;
+  }
+  .me-2{
+    margin-top: 10px !important;
+  }
+  form {
+    
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 7px;
+    margin-bottom: 10px;
+    width: 90%; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px; 
+  }
+  
+  
+  
